@@ -1,7 +1,7 @@
 import './styles/App.css';
-import HomePage from './pages/HomePage';
-import ContactPage from './pages/ContactPage';
-import AboutPage from './pages/AboutPage';
+import HomePage from '../pages/HomePage';
+import ContactPage from '../pages/ContactPage';
+import AboutPage from '../pages/AboutPage';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 // This is the newer way of routing -- better for server-side routing
