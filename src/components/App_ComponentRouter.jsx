@@ -24,8 +24,8 @@ function App() {
           <Route path='/contact' element={<ContactPage />} />
 
           <Route path="/projects" element={<ProjectLayout />}>
-            <Route path="/projects/pokemon" element={<PokemonProject />} />
-            <Route path="pokemon" element={<PokemonProject />} />
+            <Route path="/projects/pokemon/:pokemonNumber" element={<PokemonProject />} />
+            <Route path="pokemon/:pokemonNumber" element={<PokemonProject />} />
           </Route>
 
         </Routes>
